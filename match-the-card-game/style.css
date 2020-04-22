@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding-top: 3rem;
+    height: 100vh;
+}
+
+.heading {
+    font-size: 40px;
+    text-align: center;
+}
+
+.score {
+    text-align: center;
+    font-size: 22px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+    margin: 5rem auto 8rem auto;
+}
