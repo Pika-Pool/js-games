@@ -1,0 +1,58 @@
+:root {
+    --game-width: 200px;
+}
+
+body {
+    margin: 0;
+    padding-top: 1rem;
+    height: 100vh;
+    max-height: 100vh;
+    box-sizing: border-box;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.start {
+    display: block;
+    padding: .8rem;
+    font-size: 15px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid black;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.grid {
+    width: var(--game-width);
+    height: var(--game-width);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5rem auto 0 auto;
+    border: 2px solid black;
+    box-sizing: content-box;
+}
+
+.grid div {
+    width: calc(var(--game-width) / 10);
+    height: calc(var(--game-width) / 10);
+    box-sizing: border-box;
+    background-clip: content-box;
+    padding: 1px;
+}
+
+.grid .snake {
+    /* background: linear-gradient(to right, blue 0% 90%, transparent 90% 100%); */
+    background-color: blue;
+}
+
+.grid .apple {
+    background: green;
+}
