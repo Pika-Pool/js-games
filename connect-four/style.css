@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+h1 {
+    margin-top: 4rem;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 120px;
+    width: 140px;
+    border: 1px solid black;
+    margin: 4rem auto;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.player.one {
+    background-color: red;
+    border-radius: 50%;
+}
+
+.player.two {
+    background-color: blue;
+    border-radius: 50%;
+}
